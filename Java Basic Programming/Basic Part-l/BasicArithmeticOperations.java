@@ -14,6 +14,7 @@ Expected Output :
 */
 
 public class BasicArithmeticOperations {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -34,5 +35,7 @@ public class BasicArithmeticOperations {
         System.out.println(first_number + " x " + second_number + " = " + multiply);
         System.out.println(first_number + " / " + second_number + " = " + divide);
         System.out.println(first_number + " mod " + second_number + " = " + remainder);
+
+        sc.close();
     }
 }
