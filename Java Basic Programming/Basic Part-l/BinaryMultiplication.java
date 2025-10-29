@@ -20,7 +20,7 @@ public class BinaryMultiplication {
         long second_binary = sc.nextLong();
 
         long multiply = 0;
-        int digit = 1;
+        int digit;
         int factor = 1;
 
         while(second_binary != 0) {
