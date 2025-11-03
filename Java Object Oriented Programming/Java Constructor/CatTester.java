@@ -1,3 +1,5 @@
+//Default Constructor
+
 class Cat {
 
     public String name;
