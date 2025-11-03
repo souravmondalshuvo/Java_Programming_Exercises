@@ -1,6 +1,3 @@
-
-import java.nio.charset.Charset;
-
 /*
 Write a Java program to list the available character sets in charset objects.
 Expected Output
@@ -29,6 +26,7 @@ x-windows-950
 x-windows-iso2022jp
 */
 
+import java.nio.charset.Charset;
 public class ListAvailableCharsets {
     public static void main(String[] args) {
         
