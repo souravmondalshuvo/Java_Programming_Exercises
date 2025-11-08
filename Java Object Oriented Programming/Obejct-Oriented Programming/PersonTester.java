@@ -1,3 +1,5 @@
+//Write a Java program to create a class called "Person" with a name and age attribute. Create two instances of the "Person" class, set their attributes using the constructor, and print their name and age.
+
 public class PersonTester {
     public static void main(String[] args) {
             
