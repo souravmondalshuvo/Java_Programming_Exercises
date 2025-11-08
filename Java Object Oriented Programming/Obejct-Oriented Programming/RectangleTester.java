@@ -12,6 +12,6 @@ public class RectangleTester {
         rectangle.setHeight(12);
 
         System.out.println("\nThe area of the rectangle is now " + rectangle.getArea());
-        System.out.println("\nThe perimeter of the rectangle is now " + rectangle.getPerimeter());
+        System.out.println("The perimeter of the rectangle is now " + rectangle.getPerimeter());
     }
 }
