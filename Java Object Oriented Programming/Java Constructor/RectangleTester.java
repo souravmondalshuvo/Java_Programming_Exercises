@@ -1,20 +1,3 @@
-//Copy Constructor
-
-class Rectangle {
-    public double length;
-    public double width;
-
-    public Rectangle(double length, double width) {
-        this.length = length;
-        this.width = width;
-    }
-
-    public Rectangle(Rectangle rect_2) {
-        this.length = rect_2.length;
-        this.width = rect_2.width;
-    } 
-}
-
 public class RectangleTester {
     public static void main(String[] args) {
         
