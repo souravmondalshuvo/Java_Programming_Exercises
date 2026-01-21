@@ -60,5 +60,12 @@ public class ArrayLists {
         System.out.println("Size of the array: " + size);
 
         System.out.println("=======================");
+
+        //loops for ArrayList
+        for(int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+        System.out.println("=======================");
     }
 }
