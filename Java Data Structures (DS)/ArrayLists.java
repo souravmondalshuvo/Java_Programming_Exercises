@@ -47,10 +47,17 @@ public class ArrayLists {
         list.remove(4);
 
         System.out.println(list);
-        
+
         list.remove(4);
 
         System.out.println(list);
+
+        System.out.println("=======================");
+
+        // size
+        int size = list.size();
+
+        System.out.println("Size of the array: " + size);
 
         System.out.println("=======================");
     }
